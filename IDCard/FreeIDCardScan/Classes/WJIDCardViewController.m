@@ -80,6 +80,10 @@ static Boolean init_flag = false;
 }
 
 - (BOOL) prefersStatusBarHidden { return YES; }
+- (BOOL)shouldAutorotate { return YES;}
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillDisappear:animated];
     // start !

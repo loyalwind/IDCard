@@ -34,8 +34,10 @@
     [btn setTitle:@"扫描身份证" forState:UIControlStateNormal];
     [self.view addSubview:btn];
 }
-- (BOOL)prefersStatusBarHidden {
-    return NO;
+- (BOOL)prefersStatusBarHidden { return NO; }
+- (BOOL)shouldAutorotate { return YES;}
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
 }
 - (void)goToScanRecgniseIdCard:(id)sender{
     // 附带授权码的 初始化方法
