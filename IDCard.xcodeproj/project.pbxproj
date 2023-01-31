@@ -14,6 +14,14 @@
 		5FAFBCEC274A8FEE007680C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAFBCEB274A8FEE007680C6 /* Assets.xcassets */; };
 		5FAFBCEF274A8FEE007680C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAFBCED274A8FEE007680C6 /* LaunchScreen.storyboard */; };
 		5FAFBCF2274A8FEE007680C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBCF1274A8FEE007680C6 /* main.m */; };
+		5FAFBD0A274A9020007680C6 /* WJIDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBCFA274A9020007680C6 /* WJIDCardViewController.m */; };
+		5FAFBD0B274A9020007680C6 /* WJCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBCFB274A9020007680C6 /* WJCapture.m */; };
+		5FAFBD0C274A9020007680C6 /* WJIDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBCFC274A9020007680C6 /* WJIDInfo.m */; };
+		5FAFBD0D274A9020007680C6 /* WJScanIDCardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBCFE274A9020007680C6 /* WJScanIDCardManager.m */; };
+		5FAFBD0E274A9020007680C6 /* WJBlastWaveCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBD02274A9020007680C6 /* WJBlastWaveCameraView.m */; };
+		5FAFBD0F274A9020007680C6 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAFBD06274A9020007680C6 /* libexidcardios.a */; };
+		5FAFBD16274A931F007680C6 /* UIImage+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBD12274A931F007680C6 /* UIImage+WJExtension.m */; };
+		5FCA14AA2989718F00EADFD3 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 5FAFBD07274A9020007680C6 /* zocr0.lib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,22 @@
 		5FAFBCEE274A8FEE007680C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FAFBCF0274A8FEE007680C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FAFBCF1274A8FEE007680C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FAFBCFA274A9020007680C6 /* WJIDCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJIDCardViewController.m; sourceTree = "<group>"; };
+		5FAFBCFB274A9020007680C6 /* WJCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCapture.m; sourceTree = "<group>"; };
+		5FAFBCFC274A9020007680C6 /* WJIDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJIDInfo.m; sourceTree = "<group>"; };
+		5FAFBCFD274A9020007680C6 /* WJBlastWaveCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJBlastWaveCameraView.h; sourceTree = "<group>"; };
+		5FAFBCFE274A9020007680C6 /* WJScanIDCardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJScanIDCardManager.m; sourceTree = "<group>"; };
+		5FAFBCFF274A9020007680C6 /* WJIDCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJIDCardViewController.h; sourceTree = "<group>"; };
+		5FAFBD00274A9020007680C6 /* WJCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCapture.h; sourceTree = "<group>"; };
+		5FAFBD01274A9020007680C6 /* WJScanIDCardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJScanIDCardManager.h; sourceTree = "<group>"; };
+		5FAFBD02274A9020007680C6 /* WJBlastWaveCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJBlastWaveCameraView.m; sourceTree = "<group>"; };
+		5FAFBD03274A9020007680C6 /* WJIDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJIDInfo.h; sourceTree = "<group>"; };
+		5FAFBD06274A9020007680C6 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		5FAFBD07274A9020007680C6 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		5FAFBD08274A9020007680C6 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		5FAFBD09274A9020007680C6 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		5FAFBD12274A931F007680C6 /* UIImage+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WJExtension.m"; sourceTree = "<group>"; };
+		5FAFBD13274A931F007680C6 /* UIImage+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WJExtension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAFBD0F274A9020007680C6 /* libexidcardios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 		5FAFBCDE274A8FED007680C6 /* IDCard */ = {
 			isa = PBXGroup;
 			children = (
+				5FAFBCF8274A9020007680C6 /* FreeIDCardScan */,
 				5FAFBCDF274A8FED007680C6 /* AppDelegate.h */,
 				5FAFBCE0274A8FED007680C6 /* AppDelegate.m */,
 				5FAFBCE2274A8FED007680C6 /* SceneDelegate.h */,
@@ -74,6 +100,61 @@
 				5FAFBCF1274A8FEE007680C6 /* main.m */,
 			);
 			path = IDCard;
+			sourceTree = "<group>";
+		};
+		5FAFBCF8274A9020007680C6 /* FreeIDCardScan */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFBD11274A9306007680C6 /* Categorys */,
+				5FAFBCF9274A9020007680C6 /* Classes */,
+				5FAFBD04274A9020007680C6 /* libexidcard */,
+			);
+			path = FreeIDCardScan;
+			sourceTree = "<group>";
+		};
+		5FAFBCF9274A9020007680C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFBCFD274A9020007680C6 /* WJBlastWaveCameraView.h */,
+				5FAFBD02274A9020007680C6 /* WJBlastWaveCameraView.m */,
+				5FAFBD00274A9020007680C6 /* WJCapture.h */,
+				5FAFBCFB274A9020007680C6 /* WJCapture.m */,
+				5FAFBCFF274A9020007680C6 /* WJIDCardViewController.h */,
+				5FAFBCFA274A9020007680C6 /* WJIDCardViewController.m */,
+				5FAFBD03274A9020007680C6 /* WJIDInfo.h */,
+				5FAFBCFC274A9020007680C6 /* WJIDInfo.m */,
+				5FAFBD01274A9020007680C6 /* WJScanIDCardManager.h */,
+				5FAFBCFE274A9020007680C6 /* WJScanIDCardManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5FAFBD04274A9020007680C6 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFBD05274A9020007680C6 /* dicts */,
+				5FAFBD08274A9020007680C6 /* commondef.h */,
+				5FAFBD09274A9020007680C6 /* excards.h */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		5FAFBD05274A9020007680C6 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFBD06274A9020007680C6 /* libexidcardios.a */,
+				5FAFBD07274A9020007680C6 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		5FAFBD11274A9306007680C6 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFBD13274A931F007680C6 /* UIImage+WJExtension.h */,
+				5FAFBD12274A931F007680C6 /* UIImage+WJExtension.m */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCA14AA2989718F00EADFD3 /* zocr0.lib in Resources */,
 				5FAFBCEF274A8FEE007680C6 /* LaunchScreen.storyboard in Resources */,
 				5FAFBCEC274A8FEE007680C6 /* Assets.xcassets in Resources */,
 				5FAFBCEA274A8FED007680C6 /* Main.storyboard in Resources */,
@@ -146,10 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAFBD0C274A9020007680C6 /* WJIDInfo.m in Sources */,
 				5FAFBCE7274A8FED007680C6 /* ViewController.m in Sources */,
 				5FAFBCE1274A8FED007680C6 /* AppDelegate.m in Sources */,
 				5FAFBCF2274A8FEE007680C6 /* main.m in Sources */,
+				5FAFBD0E274A9020007680C6 /* WJBlastWaveCameraView.m in Sources */,
+				5FAFBD16274A931F007680C6 /* UIImage+WJExtension.m in Sources */,
 				5FAFBCE4274A8FED007680C6 /* SceneDelegate.m in Sources */,
+				5FAFBD0D274A9020007680C6 /* WJScanIDCardManager.m in Sources */,
+				5FAFBD0B274A9020007680C6 /* WJCapture.m in Sources */,
+				5FAFBD0A274A9020007680C6 /* WJIDCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +383,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJA4BUEX79;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IDCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "扫描身份证";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCard/FreeIDCardScan/libexidcard/dicts",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loyalwind.IDCard;
@@ -322,16 +417,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJA4BUEX79;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IDCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "扫描身份证";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCard/FreeIDCardScan/libexidcard/dicts",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loyalwind.IDCard;
